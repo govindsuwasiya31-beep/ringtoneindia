@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://govindsuwasiya31-beep.github.io/ringtoneindia/sitemap.xml
