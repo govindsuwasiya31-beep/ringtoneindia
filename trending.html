@@ -1,6 +1,81 @@
-<nav style="background:#111;padding:12px;text-align:center">
-  <a href="index.html" style="color:#fff;margin:0 12px">Home</a>
-  <a href="trending.html" style="color:#fff;margin:0 12px">Trending</a>
-  <a href="about.html" style="color:#fff;margin:0 12px">About</a>
-  <a href="contact.html" style="color:#fff;margin:0 12px">Contact</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Trending Ringtones</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{
+  margin:0;
+  font-family:Arial;
+  background:#f4f6fb;
+}
+header{
+  background:linear-gradient(90deg,#ff512f,#dd2476);
+  color:#fff;
+  padding:30px;
+  text-align:center;
+}
+nav{
+  background:#000;
+  padding:12px;
+  text-align:center;
+}
+nav a{
+  color:#fff;
+  margin:0 15px;
+  text-decoration:none;
+  font-weight:bold;
+}
+.container{
+  max-width:900px;
+  margin:30px auto;
+  padding:20px;
+}
+.card{
+  background:#fff;
+  padding:20px;
+  border-radius:12px;
+  margin-bottom:20px;
+  box-shadow:0 10px 25px rgba(0,0,0,.1);
+}
+audio{width:100%}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>🔥 Trending Ringtones</h1>
+  <p>Latest viral ringtones 2026</p>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="trending.html">Trending</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
 </nav>
+
+<div class="container">
+
+  <div class="card">
+    <h3>🎧 Entry BGM</h3>
+    <audio controls src="ringtones/Bollywood_Entry_BGM_Ringtone.mp3"></audio>
+  </div>
+
+  <div class="card">
+    <h3>🎧 Party Beat</h3>
+    <audio controls src="ringtones/Bollywood_Party_Beat_Ringtone.mp3"></audio>
+  </div>
+
+  <div class="card">
+    <h3>🎧 Romantic Melody</h3>
+    <audio controls src="ringtones/Romantic_Bollywood_Melody_Ringtone.mp3"></audio>
+  </div>
+
+</div>
+
+</body>
+</html>
